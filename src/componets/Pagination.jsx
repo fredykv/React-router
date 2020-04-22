@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Pagination = () => {
   return (
@@ -9,19 +10,19 @@ const Pagination = () => {
         <nav aria-label="Page navigation example">
           <ul className="pagination">
             <li className="page-item">
-              <a className="page-link bg-dark border border-primary" href="/">
+              <Link className="page-link bg-dark border border-primary" to="/">
                 1
-              </a>
+              </Link>
             </li>
             <li className="page-item">
-              <a className="page-link bg-dark border border-primary" href="/2">
+              <Link className="page-link bg-dark border border-primary" to="/2">
                 2
-              </a>
+              </Link>
             </li>
             <li className="page-item ">
-              <a className="page-link bg-dark border border-primary " href="/3">
+              <Link className="page-link bg-dark border border-primary " to="/3">
                 3
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
