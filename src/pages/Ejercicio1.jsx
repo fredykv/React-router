@@ -68,8 +68,6 @@ class Ejercicio1 extends Component {
     const clase =
       "col-4 text-center pb-5 border border-primary " + this.state.mode.bg;
     const claseInput = "px-3 mb-2 py-1 text-center " + this.state.mode.bgInput;
- 
-
     return (
       <div className="container ">
         <div className="row pt-5 ">
